@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+}
+
+:root{
+   --blue:#3498db;
+   --dark-blue:#2980b9;
+   --red:#e74c3c;
+   --dark-red:#c0392b;
+   --black:#333;
+   --white:#fff;
+   --light-bg:#eee;
+   --box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+html{
+   font-size: 90%;
+}
+
+.layar-dalam {
+   width: 1400px;
+   margin: 0;
+}
+
+.layar-penuh {
+   width: 100%;
+}
+
+nav {
+   z-index: 100;
+   color: white;
+   text-align: center;
+   position: absolute;
+   line-height: 60px;
+   width: 100%;
+}
+
+nav .putih {
+   background-color: transparent;
+}
+
+nav .logo {
+   float: left;
+   position: relative;
+   line-height: 55px;
+   text-align: center;
+}
+
+nav .logo img {
+   vertical-align: middle;
+   width: 125px;
+}
+
+nav .menu {
+   float: right;
+   height: 60px;
+   max-width: 600px;
+   padding: 0em;
+}
+
+nav .menu ul {
+   list-style-type: none;
+   margin: 30px 0px;
+   padding: 0;
+   display: flex;
+}
+
+nav .menu ul li {
+   list-style-type: none;
+   float: left;
+   line-height: 60px;
+}
+
+nav ul li a {
+   font-family: "Poppins", sans-serif;
+   color: white;
+   text-align: center;
+   padding: 2px 16px 2px 16px;
+   text-decoration: none;
+   font-weight: bold;
+   border-radius: 20px;
+   font-size: 1em;
+}
+
+nav .menu ul li a:hover {
+   background: #0A2647;
+}
+
+.btn,
+.delete-btn{
+   width: 100%;
+   border-radius: 5px;
+   padding:10px 30px;
+   color:var(--white);
+   display: block;
+   text-align: center;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+.btn{
+   background-color: var(--blue);
+}
+
+.btn:hover{
+   background-color: var(--dark-blue);
+}
+
+.delete-btn{
+   background-color: var(--red);
+}
+
+.delete-btn:hover{
+   background-color: var(--dark-red);
+}
+
+.message{
+   margin:10px 0;
+   width: 100%;
+   border-radius: 5px;
+   padding:10px;
+   text-align: center;
+   background-color: var(--red);
+   color:var(--white);
+   font-size: 20px;
+}
+
+.container{
+   min-height: 100vh;
+   background-color: transparent;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+}
+
+.container .profile{
+   padding:20px;
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   text-align: center;
+   width: 400px;
+   border-radius: 5px;
+}
+
+.container .profile img{
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 5px;
+}
+
+.container .profile h3{
+   margin:5px 0;
+   font-size: 20px;
+   color:var(--black);
+}
+
+.container .profile p{
+   margin-top: 20px;
+   color:var(--black);
+   font-size: 20px;
+}
+
+.container .profile p a{
+   color:var(--red);
+}
+
+.container .profile p a:hover{
+   text-decoration: underline;
+}
+
+.update-profile{
+   min-height: 100vh;
+   background-color: transparent;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+}
+
+.update-profile form{
+   margin-top: 120px;
+   padding:20px;
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   text-align: center;
+   width: 700px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.update-profile form img{
+   height: 200px;
+   width: 200p;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 5px;
+}
+
+.update-profile form .flex{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+   gap:15px;
+}
+
+.update-profile form .flex .inputBox{
+   width: 49%;
+}
+
+.update-profile form .flex .inputBox span{
+   text-align: left;
+   display: block;
+   margin-top: 15px;
+   font-size: 17px;
+   color:var(--black);
+}
+
+.update-profile form .flex .inputBox .box{
+   width: 100%;
+   border-radius: 5px;
+   background-color: var(--light-bg);
+   padding:12px 14px;
+   font-size: 17px;
+   color:var(--black);
+   margin-top: 10px;
+}
+
+/* puuterrrr */
+footer {
+   background-color: #111;
+}
+
+.footerContainer {
+   width: 100%;
+   padding: 70px 30px 20px;
+}
+
+.about h1 {
+   font-family: 'Kaushan Script', cursive;
+   text-align: center;
+   padding: 3px;
+   justify-content: center;
+   color: white;
+   font-size: 2em;
+   letter-spacing: 2px;
+}
+
+.about p {
+   font-family: 'Prompt', sans-serif;
+   text-align: center;
+   padding: 30px;
+   justify-content: center;
+   color: #ffffff;
+   font-size: 1.5em;
+}
+
+.socialIcons {
+   display: flex;
+   justify-content: center;
+}
+
+.socialIcons a {
+   text-decoration: none;
+   padding: 10px;
+   background-color: white;
+   margin: 10px;
+   border-radius: 30%;
+}
+
+.socialIcons a i {
+   font-size: 3em;
+   color: #000000;
+   opacity: 0.9;
+}
+
+.socialIcons a:hover {
+   background-color: #111;
+   transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+   color: white;
+   transition: 0.5s;
+}
+
+.footernav {
+   margin: 30px 0;
+}
+
+.footernav ul {
+   display: flex;
+   justify-content: center;
+}
+
+.footernav ul li a {
+   font-family: 'Prompt', sans-serif;
+   font-size: 1.5em;
+   color: white;
+   margin: 10px;
+   text-decoration: none;
+   opacity: 0.5s;
+}
+
+.footernav ul li a:hover {
+   opacity: 1;
+}
+
+.footerbottom {
+   background-color: #000;
+   padding: 20px;
+   text-align: center;
+}
+
+.footerbottom p {
+   color: white;
+}
+
+
+@media (max-width:650px){
+   .update-profile form .flex{
+      flex-wrap: wrap;
+      gap:0;
+   }
+   .update-profile form .flex .inputBox{
+      width: 100%;
+   }
+}

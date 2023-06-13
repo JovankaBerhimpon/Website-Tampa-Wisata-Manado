@@ -1,0 +1,15 @@
+Proyek Ujian Tengah Semester
+Mata Kuliah Pemrograman Web
+
+Anggota Kelompok: 
+Naomi Clara Tresia Kamea - 210211060007
+Shergio David Karunia Wuisan- 210211060019
+Jovanka Berhimpon - 210211060095
+
+Nama Website yang kami buat adalah 
+MARIJO BAPONTAR
+
+Email: admin
+Password: 12345
+
+Jika ingin membuka website bisa di mulai dari halaman page.html bisa juga langsung pada bagian home.html
